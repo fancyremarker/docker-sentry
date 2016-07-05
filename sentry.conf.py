@@ -4,7 +4,7 @@ import os
 import dj_database_url
 import random
 
-DEBUG = True
+DEBUG = False
 
 SECRET_KEY = os.environ.get('SECRET_KEY', "%032x" % random.getrandbits(128))
 
